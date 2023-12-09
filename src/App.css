@@ -1,0 +1,30 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: aquamarine;
+}
+.counter{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+.btn_count{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.btn_count button{
+    width: 100px;
+    font-weight: 900;
+    font-size: 16px;
+    background-color: rgb(164, 164, 230);
+    color: white;
+    border: 1px solid rgb(164, 164, 230);
+    outline: none;
+}
+.btn_count button:hover{
+color:rgb(164, 164, 230) ;
+background-color: white;
+}
